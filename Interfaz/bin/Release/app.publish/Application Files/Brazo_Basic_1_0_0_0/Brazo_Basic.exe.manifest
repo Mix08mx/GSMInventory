@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Brazo_Basic.exe" version="1.0.0.0" publicKeyToken="0c1618fd8614e43f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Brazo_Basic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Brazo_Basic.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Brazo_Basic.exe" size="38400">
+      <assemblyIdentity name="Brazo_Basic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/5BMOGYKiy6U4XGNmS4Od56qty/yMa4NVbsqkvs8Kdc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Brazo_Basic.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MIXW8\Mixtli" issuerKeyHash="06206a4b8f4059051391b868b7ec1d7e3d04b4be" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1lKHGQuJBdYD3EhdHlsIrK3QEJEMpKriz8X/1o0Mtog=</DigestValue></Reference></SignedInfo><SignatureValue>cQc+59YQcJI6dPmEE1EYP09UCUR+JNA0mrmmuCRZg7UEcueGWUP3S3zvoHp2okTwLK2qcx281844Cq5yXsn5a4KzBeotOQ+5QUxfXRTuKgtHYsRn/05mGGLQk/DhtQsS5csPb97tdArD1Y+0Z+2ZK966Uqt+9fabho0DFSJbiZo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tt+zZEe6LvOrkjo4QysU9BU0943DBRCKQBMri5o9iLg7cKzn9/fvpGEJlOIqFzK14V4gQ7nFawhUSFtQbB1OTeV1l/J71Vz4f919q67njgl0dkgka/RXaHlWuAn+QEbg4GXky3YMG3/Xr9mvySac/p9syd0XI2zOAGy0/8eP+3E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="88b60c8dd6ffc5cfe2aaa40c9110d0adac085b1e5d48dc03d605890b198752d6" Description="" Url=""><as:assemblyIdentity name="Brazo_Basic.exe" version="1.0.0.0" publicKeyToken="0c1618fd8614e43f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MIXW8\Mixtli</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fM0UmGKI1bIsYasFifSpZwoeghX40lXIWipjsdMsTEc=</DigestValue></Reference></SignedInfo><SignatureValue>dZDgzN76wPjQpYD/KJtTkRRQifjLLkKzA+CN2WRXxal1AY3Xp0uK7yFHLClmxBUlEwTYYOjhkviNLssw6PiT6OK+9WBI3qxWnTZyqugI1gys7s5qhQObICOhHRaTgCY87JnlnovVmU5XEyVf7t5BcnFrKAcLXd8BI+IXQhzN/SU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tt+zZEe6LvOrkjo4QysU9BU0943DBRCKQBMri5o9iLg7cKzn9/fvpGEJlOIqFzK14V4gQ7nFawhUSFtQbB1OTeV1l/J71Vz4f919q67njgl0dkgka/RXaHlWuAn+QEbg4GXky3YMG3/Xr9mvySac/p9syd0XI2zOAGy0/8eP+3E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQLjML74GxQ4xDjG2DTCZsuDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgATQBJAFgAVwA4AFwATQBpAHgAdABsAGkwHhcNMTYwODAyMjIxNjAzWhcNMTcwODAzMDQxNjAzWjAjMSEwHwYDVQQDHhgATQBJAFgAVwA4AFwATQBpAHgAdABsAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALbfs2RHui7zq5I6OEMrFPQVNPeNwwUQikATK4uaPYi4O3Cs5/f376RhCZTiKhcyteFeIEO5xWsIVEhbUGwdTk3ldZfye9Vc+H/dfauu544JdHZIJGv0V2h5VrgJ/kBG4OBl5Mt2DBt/16/Zr8kmnP6fbMndFyNszgBstP/Hj/txAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAi7kODUbusQbUBXzM5pVa7ZhDQQihA3TxPM+H6IuV/AE+h/+m5h2N2Rhu2dLw8K2ROaA2OPc4boZrw4p/2dC7xM3ec60NM5i3XKL6aUf0ogvR6loQDX8GzMPxTeXv5mlLU9nniujUsBKfpa+C0VguAGJ230ycEQ/RSf2Gz4KrXec=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
